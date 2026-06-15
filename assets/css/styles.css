@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+:root {
+    --courage-navy: #002D56;
+    --courage-red: #E31837;
+    --courage-red-hover: #f1425c;
+    --courage-blue: #00A3E0;
+}
+
+body { font-family: 'Inter', sans-serif; background-color: #ffffff; scroll-behavior: smooth; overflow-x: hidden; }
+.bg-courage-navy { background-color: var(--courage-navy); }
+.text-courage-navy { color: var(--courage-navy); }
+.text-courage-red { color: var(--courage-red); }
+.text-courage-blue { color: var(--courage-blue); }
+
+.btn-highlight {
+    background-color: var(--courage-red);
+    transition: all 0.2s ease;
+}
+.btn-highlight:hover { background-color: var(--courage-red-hover); }
+
+.check-bullet::before {
+    content: '✓';
+    margin-right: 0.75rem;
+    font-weight: 900;
+    color: var(--courage-red);
+}
+
+.player-section {
+    border-bottom: 8px solid #f1f5f9;
+}
+.player-section:last-child { border-bottom: none; }
+
+section[id^="player-"] {
+    scroll-margin-top: 140px;
+}
+
+/* Updated Navigation Container */
+.nav-container {
+    position: relative;
+    padding: 10px 0; /* Increased padding for more space */
+}
+
+/* Grouping Logic: 2027, 2028, 2029 Labels */
+.year-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px; /* Breathing room between year and numbers */
+}
+
+.group-year-label {
+    font-size: 10px;
+    font-weight: 900;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+/* Updated Jersey Number Buttons */
+.jump-link {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 900;
+    position: relative;
+    z-index: 10;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.jump-link:hover {
+    background-color: var(--courage-red);
+}
+
+.player-menu-toggle {
+    display: none;
+}
+
+.master-roster-footer {
+    display: none;
+}
+
+/* SVG Drawing Path */
+#drawing-path {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Updated "find a player by #" Text */
+.label-overlay {
+    position: absolute;
+    width: 950px;
+    height: 180px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 5;
+}
+
+.find-player-text {
+    position: absolute;
+    left: 470px;
+    top: 48px;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+    color: var(--courage-navy);
+}
+
+/* GSAP Floating Name Animation */
+.floating-name {
+    position: absolute;
+    color: var(--courage-red);
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+    pointer-events: none;
+    white-space: nowrap;
+    z-index: 9999;
+    background: white;
+    padding: 4px 10px;
+    border-radius: 4px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    border: 1px solid #eee;
+}
+
+/* Updated Back to Top Button */
+#backToTop {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 56px;
+    height: 56px;
+    background-color: var(--courage-navy);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 25px -5px rgba(0, 45, 86, 0.4);
+    border: 2px solid var(--courage-blue);
+}
+
+#backToTop:hover {
+    background-color: var(--courage-red);
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px -5px rgba(227, 24, 55, 0.4);
+}
+
+#backToTop svg {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 900px) {
+    .master-roster-nav {
+        display: none;
+    }
+
+    .master-roster-footer {
+        display: block;
+    }
+
+    .text-7xl {
+        font-size: clamp(2rem, 11vw, 3.5rem) !important;
+        line-height: 0.95 !important;
+        overflow-wrap: anywhere;
+        word-break: normal;
+    }
+
+    .nav-container {
+        padding: 8px 0 12px;
+        overflow: visible;
+    }
+
+    .player-menu-toggle {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 10px 0 14px;
+        padding: 8px 2px 12px;
+        color: var(--courage-navy);
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #cbd5e1;
+    }
+
+    .menu-icon {
+        order: -1;
+        width: 18px;
+        height: 12px;
+        display: inline-flex;
+        position: relative;
+    }
+
+    .menu-icon::before,
+    .menu-icon::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: var(--courage-navy);
+        transition: transform 0.2s ease, top 0.2s ease;
+    }
+
+    .menu-icon::before {
+        top: 0;
+    }
+
+    .menu-icon::after {
+        top: 8px;
+    }
+
+    .nav-container.menu-open .menu-icon::before {
+        top: 5px;
+        transform: rotate(45deg);
+    }
+
+    .nav-container.menu-open .menu-icon::after {
+        top: 5px;
+        transform: rotate(-45deg);
+    }
+
+    .jump-groups {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: stretch;
+        max-height: 0;
+        opacity: 0;
+        pointer-events: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        transition: max-height 0.3s ease, opacity 0.2s ease;
+    }
+
+    .nav-container.menu-open .jump-groups {
+        max-height: 1200px;
+        opacity: 1;
+        pointer-events: auto;
+        overflow: visible;
+        padding-bottom: 6px;
+    }
+
+    .year-group {
+        display: block;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .group-year-label {
+        display: block;
+        margin: 10px 0 6px;
+        text-align: left;
+    }
+
+    .year-group > div {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+    }
+
+    .jump-link {
+        width: 100%;
+        height: auto;
+        padding: 10px 2px;
+        justify-content: space-between;
+        border-radius: 0;
+        border-bottom: 1px solid #e2e8f0;
+        background: transparent;
+        color: var(--courage-red) !important;
+        font-size: 14px;
+        line-height: 1.2;
+        text-decoration: none;
+    }
+
+    .jump-link::before {
+        content: attr(data-name);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        color: #1e293b;
+        text-align: left;
+        margin-right: 12px;
+    }
+
+    .jump-link:hover {
+        background-color: transparent;
+        transform: none;
+    }
+
+    #drawing-path {
+        display: none;
+    }
+
+    .label-overlay {
+        display: none;
+    }
+}
