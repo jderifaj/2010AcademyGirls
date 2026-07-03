@@ -96,7 +96,7 @@ section[id^="player-"] {
 /* Updated "find a player by #" Text */
 .label-overlay {
     position: absolute;
-    width: 950px;
+    width: 1080px;
     height: 180px;
     top: 50%;
     left: 50%;
@@ -107,7 +107,7 @@ section[id^="player-"] {
 
 .find-player-text {
     position: absolute;
-    left: 470px;
+    left: 540px;
     top: 48px;
     transform: translateX(-50%);
     text-transform: uppercase;
@@ -167,7 +167,7 @@ section[id^="player-"] {
     height: 24px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1025px) {
     .master-roster-nav {
         display: none;
     }

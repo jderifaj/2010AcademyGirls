@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const menuToggle = document.getElementById("playerMenuToggle");
     const yearGroups = document.querySelectorAll(".year-group");
     const main = document.querySelector("main");
-    const mobileQuery = window.matchMedia("(max-width: 900px)");
+    const mobileQuery = window.matchMedia("(max-width: 1025px)");
     const hoverQuery = window.matchMedia("(hover: hover) and (pointer: fine)");
 
     // Sort each year group's jump links numerically, then mirror that order in player sections.
