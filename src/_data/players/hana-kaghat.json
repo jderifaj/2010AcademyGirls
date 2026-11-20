@@ -1,0 +1,27 @@
+{
+  "firstName": "Hana",
+  "lastName": "Kaghat",
+  "jersey": 77,
+  "classYear": 2028,
+  "position": "Center Back",
+  "photo": "/assets/images/hana.jpg",
+  "committed": false,
+  "highlightUrl": "https://www.youtube.com/@hanak77",
+  "highSchool": "Apex High School",
+  "gpa": "4.1",
+  "height": "5' 6\"",
+  "testLabel": "ACT/SAT",
+  "testScore": "N/A",
+  "major": "Science Based",
+  "foot": "Right",
+  "honors": [
+    "2023 & 2025 NCFC Youth Shield Award Winner",
+    "2025 USL Super Cup Team Member",
+    "2024 US Soccer Talent ID Invite",
+    "FCCLA National Culinary Club"
+  ],
+  "email": "hanaksoccer@gmail.com",
+  "phone": "(919) 746-3069",
+  "parents": "Omar & Nicole Kaghat",
+  "parentPhone": ""
+}

@@ -1,0 +1,27 @@
+{
+  "firstName": "Savanah",
+  "lastName": "Windley",
+  "jersey": 63,
+  "classYear": 2028,
+  "position": "Outside Back | Defensive Midfielder",
+  "photo": "/assets/images/savanah.jpg",
+  "committed": false,
+  "highlightUrl": "https://www.youtube.com/@SavanahWindley",
+  "highSchool": "Cardinal Gibbons",
+  "gpa": "4.2",
+  "height": "5' 3\"",
+  "testLabel": "ACT/SAT",
+  "testScore": "N/A",
+  "major": "Undecided",
+  "foot": "Right",
+  "honors": [
+    "Wags & Whiskers Hope Fund Founder & CEO",
+    "NCSRA Soccer Referee",
+    "Interfaith Food Shuttle, American Red Cross & NC Food Bank Volunteer",
+    "A Note in the Pocket & Cary Teen Council Volunteer"
+  ],
+  "email": "windleysavanah@gmail.com",
+  "phone": "(919) 880-6170",
+  "parents": "William & Nicole (919) 244-3237",
+  "parentPhone": ""
+}

@@ -1,0 +1,27 @@
+{
+  "firstName": "Mallory",
+  "lastName": "Tabet",
+  "jersey": 36,
+  "classYear": 2028,
+  "position": "Goalkeeper",
+  "photo": "/assets/images/mallory.jpg",
+  "committed": false,
+  "highlightUrl": "https://youtube.com/playlist?list=PL4oCCCc3I6upQozRx0y4LUtGtT090diAI&si=qmHBoL7uEBYzkFwL",
+  "highSchool": "Middle Creek HS",
+  "gpa": "4.3",
+  "height": "5' 6\"",
+  "testLabel": "Clearing House",
+  "testScore": "N/A",
+  "major": "Biology",
+  "foot": "Right",
+  "honors": [
+    "Science National Honor Society",
+    "Fashion Club President",
+    "TOP Soccer Buddy",
+    "Interfaith Food Shuttle Farm Volunteer"
+  ],
+  "email": "mallorytabet@gmail.com",
+  "phone": "(919) 338-4426",
+  "parents": "Erin & Chris Tabet",
+  "parentPhone": ""
+}

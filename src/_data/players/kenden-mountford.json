@@ -1,0 +1,29 @@
+{
+  "firstName": "Kenden",
+  "lastName": "Mountford",
+  "jersey": 43,
+  "classYear": 2028,
+  "position": "Goalkeeper",
+  "photo": "/assets/images/kenden.jpg",
+  "committed": false,
+  "highlightUrl": "https://drive.google.com/file/d/17Z-FGTRiOaaBi_eMDFuvCkqlWQbBscGP/view?usp=sharing",
+  "highSchool": "Fuquay Varina HS",
+  "gpa": "4.25",
+  "height": "5' 7\"",
+  "testLabel": "Clearing House",
+  "testScore": "2511773763",
+  "major": "Undecided",
+  "foot": "Right",
+  "honors": [
+    "US Soccer Talent ID Invitations 2023, 2024, 2025",
+    "Spanish Honor Society",
+    "Tops Soccer",
+    "Campus Captain - Hidden Opponent Club & WCPSS Youth Mental Health Advisory Committee",
+    "2024 NCFC Shield Award Winner",
+    "Camp Chris Stone Counselor"
+  ],
+  "email": "kendenmiamountford@gmail.com",
+  "phone": "(919) 909-8339",
+  "parents": "James & Emily (919) 906-1281",
+  "parentPhone": ""
+}

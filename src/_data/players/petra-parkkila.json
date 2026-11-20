@@ -1,0 +1,30 @@
+{
+  "firstName": "Petra-Sofia",
+  "lastName": "Parkkila",
+  "jersey": 38,
+  "classYear": 2028,
+  "position": "Attacking Midfielder",
+  "photo": "/assets/images/petra.jpg",
+  "committed": false,
+  "highlightUrl": "https://www.instagram.com/petra_parkkila/reels/",
+  "highSchool": "Cary High School",
+  "gpa": "4.45",
+  "height": "5' 3\"",
+  "testLabel": "ACT/SAT",
+  "testScore": "N/A",
+  "major": "Biology / Pre-Med",
+  "foot": "Right",
+  "honors": [
+    "2026 NC Courage Super Cup Team",
+    "2026, 2023 NCFC Youth Shield Award Winner",
+    "ECNL Playoffs 2024 Qualifier",
+    "National Junior Honor Society Graduate",
+    "Alpha Beta Club, Club Unify & Women’s Empowerment Club",
+    "Red Cross Certified Lifeguard at YMCA",
+    "Interfaith Food Shuttle & Rise Against Hunger Volunteer"
+  ],
+  "email": "petra.parkkila@gmail.com",
+  "phone": "(919) 214-2596",
+  "parents": "Tommi & Hanna-Mari",
+  "parentPhone": ""
+}

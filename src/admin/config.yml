@@ -1,0 +1,105 @@
+# Sveltia CMS configuration: https://sveltiacms.app/en/docs
+# Editors sign in at /admin with a GitHub account that has Write access to the repo.
+backend:
+  name: github
+  repo: jderifaj/2010AcademyGirls
+  branch: main
+  commit_messages:
+    create: "Add player {{slug}}"
+    update: "Update {{slug}}"
+    delete: "Remove player {{slug}}"
+    uploadMedia: "Upload {{path}}"
+    deleteMedia: "Delete {{path}}"
+
+site_url: https://2010couragecacdemy.netlify.app
+display_url: https://2010couragecacdemy.netlify.app
+logo_url: /assets/images/courage.png
+
+media_folder: src/assets/images
+public_folder: /assets/images
+
+media_libraries:
+  default:
+    config:
+      transformations:
+        raster_image:
+          format: webp
+          quality: 85
+          width: 1600
+          height: 1600
+
+collections:
+  - name: players
+    label: Players
+    label_singular: Player
+    description: One entry per player. Changes go live on the site a minute or two after you save.
+    folder: src/_data/players
+    format: json
+    create: true
+    delete: true
+    slug: "{{firstName}}-{{lastName}}"
+    identifier_field: lastName
+    summary: "#{{jersey}} {{firstName}} {{lastName}} ({{classYear}})"
+    sortable_fields:
+      fields: [jersey, lastName, classYear]
+      default:
+        field: jersey
+        direction: ascending
+    view_groups:
+      - label: Class
+        field: classYear
+    fields:
+      - { name: firstName, label: First Name, widget: string }
+      - { name: lastName, label: Last Name, widget: string }
+      - { name: position, label: Position, widget: string, hint: "e.g. Winger / Striker" }
+      - { name: jersey, label: Jersey, widget: number, value_type: int, min: 0, max: 99 }
+      - name: photo
+        label: Photo
+        widget: image
+        required: false
+        hint: Portrait (3:4) photos look best. Large photos are resized automatically.
+      - { name: highSchool, label: High School, widget: string }
+      - { name: classYear, label: Class, widget: number, value_type: int, min: 2025, max: 2040, hint: "Graduation year, e.g. 2028. Players are grouped by this in the menu." }
+      - { name: gpa, label: GPA, widget: string, required: false, hint: Leave blank to show N/A. }
+      - { name: height, label: Height, widget: string, required: false, hint: "e.g. 5' 6\"" }
+      - name: testLabel
+        label: ACT/SAT Box Label
+        widget: select
+        options: ["ACT/SAT", "Clearing House", "NCAA ID#"]
+        default: ACT/SAT
+        hint: What the third stat box is titled.
+      - { name: testScore, label: ACT/SAT (or ID number), widget: string, required: false, hint: Leave blank to show N/A. }
+      - { name: major, label: Major, widget: string, required: false, default: Undecided }
+      - name: foot
+        label: Foot
+        widget: select
+        options: [Right, Left, Both]
+        default: Right
+      - name: honors
+        label: Honors & Achievements
+        label_singular: Honor
+        widget: list
+        required: false
+        field: { name: honor, label: Honor, widget: string }
+      - { name: email, label: Email, widget: string, required: false }
+      - { name: phone, label: Player Phone, widget: string, required: false }
+      - { name: parents, label: Parents, widget: string, required: false, hint: "Names, and a phone number if you like, e.g. Jason & Caroline (919) 555-1234" }
+      - { name: parentPhone, label: Parent Phone, widget: string, required: false, hint: Optional, if not included with the parents' names above. }
+      - { name: highlightUrl, label: Highlight Film Link, widget: string, required: false, hint: "YouTube, Google Drive, Instagram, etc. Leave blank to hide the button." }
+      - { name: committed, label: Committed, widget: boolean, default: false, hint: Shows a COMMITTED badge on the photo. }
+
+  - name: settings
+    label: Site Settings
+    files:
+      - name: site
+        label: Header, Coach & Footer
+        file: src/_data/site.json
+        format: json
+        fields:
+          - { name: title, label: Team Name, widget: string }
+          - { name: subtitle, label: Subtitle, widget: string }
+          - { name: masterRosterUrl, label: Master Roster Link, widget: string, required: false }
+          - { name: coachName, label: Coach Name, widget: string }
+          - { name: coachEmail, label: Coach Email, widget: string, required: false }
+          - { name: coachPhone, label: Coach Phone, widget: string, required: false }
+          - { name: footerText, label: Footer Text, widget: string }

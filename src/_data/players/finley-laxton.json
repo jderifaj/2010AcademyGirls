@@ -1,0 +1,29 @@
+{
+  "firstName": "Finley",
+  "lastName": "Laxton",
+  "jersey": 59,
+  "classYear": 2028,
+  "position": "Outside / Wing Back",
+  "photo": "/assets/images/finley.jpg",
+  "committed": false,
+  "highlightUrl": "https://youtube.com/@finleylaxton1?si=58ibUcKwqiD5vVKO",
+  "highSchool": "Crossroads Flex HS",
+  "gpa": "4.4",
+  "height": "5' 4\"",
+  "testLabel": "NCAA ID#",
+  "testScore": "2410436724",
+  "major": "Undecided",
+  "foot": "Right",
+  "honors": [
+    "National Junior Honor Society",
+    "NCSRA Soccer Referee",
+    "Red Cross Certified Lifeguard",
+    "PE Pals Volunteer",
+    "TOP Soccer & Tor Futball Volunteer",
+    "Special Olympics, Miracle League & VBS Volunteer"
+  ],
+  "email": "finleylaxton06@icloud.com",
+  "phone": "(919) 407-2995",
+  "parents": "Chris & Lyndie Laxton",
+  "parentPhone": ""
+}

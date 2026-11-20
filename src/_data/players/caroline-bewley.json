@@ -1,0 +1,30 @@
+{
+  "firstName": "Caroline",
+  "lastName": "Bewley",
+  "jersey": 34,
+  "classYear": 2028,
+  "position": "Defensive Mid / Attacking Mid",
+  "photo": "/assets/images/caroline.jpg",
+  "committed": false,
+  "highlightUrl": "https://www.youtube.com/@CBewley-l3y",
+  "highSchool": "Crossroads Flex HS",
+  "gpa": "4.3",
+  "height": "5' 4\"",
+  "testLabel": "NCAA ID#",
+  "testScore": "2601793420",
+  "major": "Exercise Sports Sci",
+  "foot": "Right",
+  "honors": [
+    "National Honor Society Member",
+    "2025 ECNL Mid-Atlantic All Conference",
+    "NC Courage Super Cup / USL-U20 Academy Team",
+    "US Soccer Talent ID Invitation 2025",
+    "NCFC Shield Award Winner & TOP Soccer Buddy",
+    "Volunteer Interfaith Food Shelter Farm",
+    "NCAA ID#: 2601793420"
+  ],
+  "email": "carolinebewley18@gmail.com",
+  "phone": "",
+  "parents": "Greg & Shelley Bewley (919) 740-8288",
+  "parentPhone": ""
+}

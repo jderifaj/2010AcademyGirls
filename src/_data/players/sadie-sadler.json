@@ -1,0 +1,25 @@
+{
+  "firstName": "Sadie",
+  "lastName": "Sadler",
+  "jersey": 51,
+  "classYear": 2029,
+  "position": "Striker / Winger",
+  "photo": "/assets/images/sadie.jpg",
+  "committed": false,
+  "highlightUrl": "",
+  "highSchool": "Green Level High School",
+  "gpa": "N/A",
+  "height": "5' 5\"",
+  "testLabel": "ACT/SAT",
+  "testScore": "N/A",
+  "major": "Undecided",
+  "foot": "Right",
+  "honors": [
+    "Christmas Warehouse & Salvation Army Volunteer",
+    "Feed the Children & Club Unified Volunteer"
+  ],
+  "email": "sadiesadlersoccer51@gmail.com",
+  "phone": "",
+  "parents": "Kelly Sadler",
+  "parentPhone": ""
+}

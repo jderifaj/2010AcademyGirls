@@ -1,0 +1,30 @@
+{
+  "firstName": "Mae",
+  "lastName": "Louthan",
+  "jersey": 44,
+  "classYear": 2029,
+  "position": "Winger / Striker",
+  "photo": "/assets/images/mae.jpg",
+  "committed": false,
+  "highlightUrl": "https://www.youtube.com/@MaeLouthan2029",
+  "highSchool": "East Chapel Hill HS",
+  "gpa": "4.63",
+  "height": "5' 7\"",
+  "testLabel": "ACT/SAT",
+  "testScore": "N/A",
+  "major": "Undecided",
+  "foot": "Left",
+  "honors": [
+    "2026 USYS ODP Interregional ID Invitation",
+    "2025 USYS ODP South Region ID Invitation",
+    "2026 Courage Academy Super Cup Team Selection",
+    "2026 NCHSA 6A Indoor Track 4x200m Third Place",
+    "2026 NCHSA 6A Indoor Track 4x400m Third Place",
+    "Deca Club",
+    "Period Poverty and Advocacy Club"
+  ],
+  "email": "maelouthan@gmail.com",
+  "phone": "",
+  "parents": "Pam Shiers & Robbie Louthan",
+  "parentPhone": "Pam (919) 607-4335, Robbie (919) 418-1937"
+}

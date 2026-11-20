@@ -1,0 +1,28 @@
+{
+  "firstName": "Elizabeth “Mally”",
+  "lastName": "Mallard",
+  "jersey": 60,
+  "classYear": 2028,
+  "position": "Attacking Mid / Defensive Mid",
+  "photo": "/assets/images/elizabeth.jpg",
+  "committed": false,
+  "highlightUrl": "https://youtube.com/@elliemallard?si=mIp1kKEMmSnresvw",
+  "highSchool": "Crossroads Flex HS",
+  "gpa": "4.3",
+  "height": "5' 8\"",
+  "testLabel": "Clearing House",
+  "testScore": "2603838883",
+  "major": "Undecided",
+  "foot": "Right",
+  "honors": [
+    "National Honor Society Member",
+    "TOP Soccer Buddy",
+    "Key Club Member",
+    "Inter-Faith Food Shuttle Volunteer",
+    "A Note in the Pocket Volunteer"
+  ],
+  "email": "ellie.mallard@icloud.com",
+  "phone": "(919) 482-3262",
+  "parents": "Andy & Alexa Mallard (919) 247-1813",
+  "parentPhone": ""
+}

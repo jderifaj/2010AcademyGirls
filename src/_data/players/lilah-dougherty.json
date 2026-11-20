@@ -1,0 +1,27 @@
+{
+  "firstName": "Lilah",
+  "lastName": "Dougherty",
+  "jersey": 45,
+  "classYear": 2028,
+  "position": "Center Back",
+  "photo": "/assets/images/lilah.jpg",
+  "committed": false,
+  "highlightUrl": "https://www.youtube.com/@LilahDougherty.soccer",
+  "highSchool": "Raleigh Charter HS",
+  "gpa": "3.7",
+  "height": "5' 7\"",
+  "testLabel": "ACT/SAT",
+  "testScore": "N/A",
+  "major": "Biology",
+  "foot": "Right",
+  "honors": [
+    "2024 NCFC Shield Award Winner",
+    "TFS Pride of the Pack (Basketball) 23",
+    "TFS Citizen of the Month & Most Athletic 23",
+    "St. Francis League MVP 22-23"
+  ],
+  "email": "lilahgdougherty@gmail.com",
+  "phone": "",
+  "parents": "Jess & Patrick (919) 624-5101",
+  "parentPhone": ""
+}

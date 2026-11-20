@@ -1,0 +1,27 @@
+{
+  "firstName": "Miren",
+  "lastName": "Osle",
+  "jersey": 41,
+  "classYear": 2029,
+  "position": "Attacking Mid / Defensive Mid",
+  "photo": "/assets/images/miren.jpg",
+  "committed": false,
+  "highlightUrl": "",
+  "highSchool": "Saint Mary’s School",
+  "gpa": "4.3",
+  "height": "5' 7\"",
+  "testLabel": "ACT/SAT",
+  "testScore": "N/A",
+  "major": "Sports Psych",
+  "foot": "Right",
+  "honors": [
+    "2023 U14 Cantabria Regional Selection (Spain)",
+    "2024 Minnesota & Midwest Region ODP",
+    "2024 US Soccer Talent ID Center Invite",
+    "Volunteer with community hunger organizations"
+  ],
+  "email": "mirenosle@gmail.com",
+  "phone": "(763) 358-9946",
+  "parents": "Victor & Jennifer Osle",
+  "parentPhone": ""
+}
