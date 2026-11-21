@@ -1,13 +1,11 @@
 {
   "firstName": "Elizabeth “Mally”",
   "lastName": "Mallard",
-  "jersey": 60,
-  "classYear": 2028,
   "position": "Attacking Mid / Defensive Mid",
+  "jersey": 42,
   "photo": "/assets/images/elizabeth.jpg",
-  "committed": false,
-  "highlightUrl": "https://youtube.com/@elliemallard?si=mIp1kKEMmSnresvw",
   "highSchool": "Crossroads Flex HS",
+  "classYear": 2028,
   "gpa": "4.3",
   "height": "5' 8\"",
   "testLabel": "Clearing House",
@@ -24,5 +22,7 @@
   "email": "ellie.mallard@icloud.com",
   "phone": "(919) 482-3262",
   "parents": "Andy & Alexa Mallard (919) 247-1813",
-  "parentPhone": ""
+  "parentPhone": "",
+  "highlightUrl": "https://youtube.com/@elliemallard?si=mIp1kKEMmSnresvw",
+  "committed": false
 }
