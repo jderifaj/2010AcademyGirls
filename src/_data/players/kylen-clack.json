@@ -1,13 +1,11 @@
 {
   "firstName": "Kylen",
   "lastName": "\"Ky\" Clack",
-  "jersey": 40,
-  "classYear": 2028,
   "position": "Winger / Striker",
+  "jersey": 40,
   "photo": "/assets/images/ky.jpg",
-  "committed": false,
-  "highlightUrl": "https://www.youtube.com/@kylenssoccerhighlights8382/videos",
   "highSchool": "East Wake Magnet HS",
+  "classYear": 2028,
   "gpa": "4.0",
   "height": "5' 3\"",
   "testLabel": "NCAA ID#",
@@ -23,5 +21,7 @@
   "email": "kylenclack.10ncc@gmail.com",
   "phone": "",
   "parents": "Satrinya Pompey & Kevin Clack",
-  "parentPhone": "(919) 696-2432"
+  "parentPhone": "(919) 696-2432",
+  "highlightUrl": "https://www.youtube.com/@kylenssoccerhighlights8382/videos",
+  "committed": true
 }
