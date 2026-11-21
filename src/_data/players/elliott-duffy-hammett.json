@@ -1,28 +1,28 @@
 {
   "firstName": "Elliott",
   "lastName": "Duffy-Hammett",
-  "jersey": 39,
-  "classYear": 2028,
   "position": "Striker / Midfielder",
+  "jersey": 33,
   "photo": "/assets/images/ellie-duffy.jpg",
-  "committed": false,
-  "highlightUrl": "https://youtube.com/@elliedhsoccer-ry7uz?si=y4N8iJlwbpd08f_y",
   "highSchool": "Carrboro High School",
+  "classYear": 2028,
   "gpa": "4.7",
   "height": "5' 5\"",
   "testLabel": "Clearing House",
   "testScore": "2507667558",
-  "major": "Math / Ex Sports Sci",
+  "major": "Math / EmBusiness",
   "foot": "Right",
   "honors": [
+    "2026 ECNL All American",
     "2026 ECNL Texas National Selection Game",
     "2025 ECNL Mid-Atlantic All Conference First Team",
-    "Northern Lakes Conference Player of the Year",
     "NCHSAA 3A All-State Team & NC Courage Super Cup Team",
-    "Rise Against Hunger Volunteer"
+    "Northern Lakes Conference Player of the Year"
   ],
   "email": "elliottdh1310@gmail.com",
   "phone": "(919) 370-0222",
   "parents": "Clare & Eve (919) 370-0261",
-  "parentPhone": ""
+  "parentPhone": "",
+  "highlightUrl": "https://youtube.com/@elliedhsoccer-ry7uz?si=y4N8iJlwbpd08f_y",
+  "committed": true
 }
