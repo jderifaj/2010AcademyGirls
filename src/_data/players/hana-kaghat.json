@@ -1,13 +1,11 @@
 {
   "firstName": "Hana",
   "lastName": "Kaghat",
-  "jersey": 77,
-  "classYear": 2028,
   "position": "Center Back",
+  "jersey": 40,
   "photo": "/assets/images/hana.jpg",
-  "committed": false,
-  "highlightUrl": "https://www.youtube.com/@hanak77",
   "highSchool": "Apex High School",
+  "classYear": 2028,
   "gpa": "4.1",
   "height": "5' 6\"",
   "testLabel": "ACT/SAT",
@@ -23,5 +21,7 @@
   "email": "hanaksoccer@gmail.com",
   "phone": "(919) 746-3069",
   "parents": "Omar & Nicole Kaghat",
-  "parentPhone": ""
+  "parentPhone": "",
+  "highlightUrl": "https://www.youtube.com/@hanak77",
+  "committed": false
 }
