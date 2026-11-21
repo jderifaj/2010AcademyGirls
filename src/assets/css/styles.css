@@ -79,10 +79,6 @@ section[id^="player-"] {
     display: none;
 }
 
-.master-roster-footer {
-    display: none;
-}
-
 /* SVG Drawing Path */
 #drawing-path {
     position: absolute;
@@ -168,13 +164,7 @@ section[id^="player-"] {
 }
 
 @media (max-width: 1025px) {
-    .master-roster-nav {
-        display: none;
-    }
 
-    .master-roster-footer {
-        display: block;
-    }
 
     .text-7xl {
         font-size: clamp(2rem, 11vw, 3.5rem) !important;

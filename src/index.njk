@@ -27,9 +27,6 @@ permalink: /index.html
               <p class="text-[10px] uppercase tracking-widest text-courage-blue font-bold mt-1">{{ site.subtitle }}</p>
             </div>
           </div>
-          {%- if site.masterRosterUrl %}
-          <a href="{{ site.masterRosterUrl }}" target="_blank" class="master-roster-nav w-full md:w-auto text-center px-6 py-2 border-2 border-courage-blue text-white font-bold uppercase tracking-widest text-xs rounded-full hover:bg-courage-blue transition">Master Roster</a>
-          {%- endif %}
         </div>
         <div class="w-full md:w-auto flex flex-col items-center md:items-end gap-3">
           <div class="w-full text-center md:text-left text-xs leading-relaxed rounded-lg px-5 py-3 bg-white/5 md:min-w-[360px]">
@@ -168,9 +165,6 @@ permalink: /index.html
     </main>
 
     <footer class="bg-courage-navy text-white p-12 text-center border-t border-slate-800">
-      {%- if site.masterRosterUrl %}
-      <a href="{{ site.masterRosterUrl }}" target="_blank" rel="noopener noreferrer" class="master-roster-footer block w-full max-w-xs mx-auto mb-6 px-6 py-3 border-2 border-courage-blue text-white font-bold uppercase tracking-widest text-xs rounded-full hover:bg-courage-blue transition">Master Roster</a>
-      {%- endif %}
       <p class="text-slate-400 text-sm italic">{{ site.footerText }}</p>
     </footer>
 

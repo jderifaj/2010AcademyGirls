@@ -98,7 +98,6 @@ collections:
         fields:
           - { name: title, label: Team Name, widget: string }
           - { name: subtitle, label: Subtitle, widget: string }
-          - { name: masterRosterUrl, label: Master Roster Link, widget: string, required: false }
           - { name: coachName, label: Coach Name, widget: string }
           - { name: coachEmail, label: Coach Email, widget: string, required: false }
           - { name: coachPhone, label: Coach Phone, widget: string, required: false }

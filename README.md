@@ -20,7 +20,7 @@ Editors need a free GitHub account that has been invited to this repo as a colla
 | Path | What |
 | --- | --- |
 | `src/_data/players/*.json` | One file per player (what the CMS edits) |
-| `src/_data/site.json` | Header, coach contact, master roster link, footer |
+| `src/_data/site.json` | Header, coach contact, footer |
 | `src/index.njk` | Page template |
 | `src/assets/` | CSS, JS, images (uploaded photos land in `src/assets/images/`) |
 | `src/admin/config.yml` | CMS fields and labels |
