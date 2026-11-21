@@ -3,6 +3,12 @@ export default function (eleventyConfig) {
   eleventyConfig.ignores.add("src/admin/**");
   eleventyConfig.ignores.add("src/google*.html");
   eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy("src/favicon.ico");
+  eleventyConfig.addPassthroughCopy("src/apple-touch-icon.png");
+  eleventyConfig.addPassthroughCopy("src/site.webmanifest");
+
+  // Absolute URL used for Open Graph tags (link previews need full URLs).
+  eleventyConfig.addGlobalData("siteUrl", "https://2010couragecacdemy.netlify.app");
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("src/google35e7e254673779b5.html");
 
