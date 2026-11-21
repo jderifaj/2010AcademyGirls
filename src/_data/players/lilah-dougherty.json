@@ -1,13 +1,11 @@
 {
   "firstName": "Lilah",
   "lastName": "Dougherty",
-  "jersey": 45,
-  "classYear": 2028,
   "position": "Center Back",
+  "jersey": 38,
   "photo": "/assets/images/lilah.jpg",
-  "committed": false,
-  "highlightUrl": "https://www.youtube.com/@LilahDougherty.soccer",
   "highSchool": "Raleigh Charter HS",
+  "classYear": 2028,
   "gpa": "3.7",
   "height": "5' 7\"",
   "testLabel": "ACT/SAT",
@@ -23,5 +21,7 @@
   "email": "lilahgdougherty@gmail.com",
   "phone": "",
   "parents": "Jess & Patrick (919) 624-5101",
-  "parentPhone": ""
+  "parentPhone": "",
+  "highlightUrl": "https://www.youtube.com/@LilahDougherty.soccer",
+  "committed": false
 }
