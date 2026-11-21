@@ -1,13 +1,11 @@
 {
   "firstName": "Caroline",
   "lastName": "Bewley",
-  "jersey": 34,
-  "classYear": 2028,
   "position": "Defensive Mid / Attacking Mid",
+  "jersey": 34,
   "photo": "/assets/images/caroline.jpg",
-  "committed": false,
-  "highlightUrl": "https://www.youtube.com/@CBewley-l3y",
   "highSchool": "Crossroads Flex HS",
+  "classYear": 2028,
   "gpa": "4.3",
   "height": "5' 4\"",
   "testLabel": "NCAA ID#",
@@ -26,5 +24,7 @@
   "email": "carolinebewley18@gmail.com",
   "phone": "",
   "parents": "Greg & Shelley Bewley (919) 740-8288",
-  "parentPhone": ""
+  "parentPhone": "",
+  "highlightUrl": "https://www.youtube.com/@CBewley-l3y",
+  "committed": true
 }
