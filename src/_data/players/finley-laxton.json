@@ -1,13 +1,11 @@
 {
   "firstName": "Finley",
   "lastName": "Laxton",
-  "jersey": 59,
-  "classYear": 2028,
   "position": "Outside / Wing Back",
+  "jersey": 39,
   "photo": "/assets/images/finley.jpg",
-  "committed": false,
-  "highlightUrl": "https://youtube.com/@finleylaxton1?si=58ibUcKwqiD5vVKO",
   "highSchool": "Crossroads Flex HS",
+  "classYear": 2028,
   "gpa": "4.4",
   "height": "5' 4\"",
   "testLabel": "NCAA ID#",
@@ -25,5 +23,7 @@
   "email": "finleylaxton06@icloud.com",
   "phone": "(919) 407-2995",
   "parents": "Chris & Lyndie Laxton",
-  "parentPhone": ""
+  "parentPhone": "",
+  "highlightUrl": "https://youtube.com/@finleylaxton1?si=58ibUcKwqiD5vVKO",
+  "committed": true
 }
