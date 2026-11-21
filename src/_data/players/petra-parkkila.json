@@ -1,13 +1,11 @@
 {
   "firstName": "Petra-Sofia",
   "lastName": "Parkkila",
-  "jersey": 38,
-  "classYear": 2028,
   "position": "Attacking Midfielder",
+  "jersey": 41,
   "photo": "/assets/images/petra.jpg",
-  "committed": false,
-  "highlightUrl": "https://www.instagram.com/petra_parkkila/reels/",
   "highSchool": "Cary High School",
+  "classYear": 2028,
   "gpa": "4.45",
   "height": "5' 3\"",
   "testLabel": "ACT/SAT",
@@ -26,5 +24,7 @@
   "email": "petra.parkkila@gmail.com",
   "phone": "(919) 214-2596",
   "parents": "Tommi & Hanna-Mari",
-  "parentPhone": ""
+  "parentPhone": "",
+  "highlightUrl": "https://www.instagram.com/petra_parkkila/reels/",
+  "committed": false
 }
