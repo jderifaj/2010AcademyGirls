@@ -1,13 +1,11 @@
 {
   "firstName": "Kenden",
   "lastName": "Mountford",
-  "jersey": 43,
-  "classYear": 2028,
   "position": "Goalkeeper",
+  "jersey": 43,
   "photo": "/assets/images/kenden.jpg",
-  "committed": false,
-  "highlightUrl": "https://drive.google.com/file/d/17Z-FGTRiOaaBi_eMDFuvCkqlWQbBscGP/view?usp=sharing",
   "highSchool": "Fuquay Varina HS",
+  "classYear": 2028,
   "gpa": "4.25",
   "height": "5' 7\"",
   "testLabel": "Clearing House",
@@ -25,5 +23,7 @@
   "email": "kendenmiamountford@gmail.com",
   "phone": "(919) 909-8339",
   "parents": "James & Emily (919) 906-1281",
-  "parentPhone": ""
+  "parentPhone": "",
+  "highlightUrl": "https://drive.google.com/file/d/17Z-FGTRiOaaBi_eMDFuvCkqlWQbBscGP/view?usp=sharing",
+  "committed": true
 }
