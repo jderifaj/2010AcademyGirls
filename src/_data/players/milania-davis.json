@@ -1,13 +1,11 @@
 {
   "firstName": "Milania",
   "lastName": "Davis",
-  "jersey": 35,
-  "classYear": 2027,
   "position": "Defensive Mid / Center Back",
+  "jersey": 43,
   "photo": "/assets/images/milania.jpg",
-  "committed": true,
-  "highlightUrl": "",
   "highSchool": "Crossroads Flex HS",
+  "classYear": 2027,
   "gpa": "4.25",
   "height": "5' 6\"",
   "testLabel": "ACT/SAT",
@@ -15,11 +13,14 @@
   "major": "Undecided",
   "foot": "Right",
   "honors": [
+    "Committed to Wofford University",
     "2023, 2024 US Soccer Talent ID Invite",
     "National Honor Society"
   ],
   "email": "milasoccer1@gmail.com",
   "phone": "(919) 671-2592",
   "parents": "Willie & Eva (336) 287-1815",
-  "parentPhone": ""
+  "parentPhone": "",
+  "highlightUrl": "",
+  "committed": true
 }
