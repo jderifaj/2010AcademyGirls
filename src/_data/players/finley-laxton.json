@@ -1,7 +1,7 @@
 {
   "firstName": "Finley",
   "lastName": "Laxton",
-  "position": "Outside / Wing Back",
+  "position": "Outside Back",
   "jersey": 39,
   "photo": "/assets/images/finley.jpg",
   "highSchool": "Crossroads Flex HS",
@@ -13,6 +13,7 @@
   "major": "Undecided",
   "foot": "Right",
   "honors": [
+    "Committed to Middle Tennessee State University",
     "National Junior Honor Society",
     "NCSRA Soccer Referee",
     "Red Cross Certified Lifeguard",
