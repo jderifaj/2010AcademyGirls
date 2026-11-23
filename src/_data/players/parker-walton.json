@@ -1,0 +1,24 @@
+{
+  "firstName": "Parker",
+  "lastName": "Walton",
+  "position": "Goalkeeper",
+  "jersey": 30,
+  "photo": "",
+  "highSchool": "Heritage High School",
+  "classYear": 2028,
+  "gpa": "4.0",
+  "height": "",
+  "testLabel": "ACT/SAT",
+  "testScore": "",
+  "major": "Undecided",
+  "foot": "Right",
+  "honors": [
+    "Committed to Syracuse University"
+  ],
+  "email": "parker.g.walton@gmail.com",
+  "phone": "919-610-2600",
+  "parents": "",
+  "parentPhone": "",
+  "highlightUrl": "",
+  "committed": true
+}
